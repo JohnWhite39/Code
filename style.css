@@ -135,7 +135,7 @@ h1, h2, h3{
   justify-content: end;
   height: 320px;
   width: 473px;
-  background-image: url("/img/trend1.jpg");
+  background-image: url("img/trend1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -143,15 +143,15 @@ h1, h2, h3{
 }
 
 .item-2 {
-  background-image: url("/img/trend2.jpg");
+  background-image: url("img/trend2.jpg");
 }
 
 .item-3 {
-  background-image: url("/img/trend3.jpg");
+  background-image: url("img/trend3.jpg");
 }
 
 .item-4 {
-  background-image: url("/img/trend4.jpg");
+  background-image: url("img/trend4.jpg");
 }
 
 .trends__box-item::after {

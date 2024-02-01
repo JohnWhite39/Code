@@ -16,31 +16,36 @@
           <img class="logo" src="svg/noemi-logo.svg" alt="logo">
         </a>
         <nav class="nav">
-          <ul class="menu-item">
-            <li class="menu-list__item">
-              <a class="menu-list__item__link" href="#">ГЛАВНАЯ</a>
+          <ul class="menu__item">
+            <li class="menu__list-item">
+              <a class="menu-list-link" href="#">ГЛАВНАЯ</a>
             </li>
-            <li class="menu-list__item">
-              <a class="menu-list__item__link" href="#">ПОСТЫ</a>
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="#">ПОСТЫ</a>
             </li>
-            <li class="menu-list__item">
-              <a class="menu-list__item__link" href="#">СТАТЬИ</a>
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="#">СТАТЬИ</a>
             </li>
-            <li class="menu-list__item">
-              <a class="menu-list__item__link" href="#">ТЕГИ</a>
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="#">ТЕГИ</a>
             </li>
-            <li class="menu-list__item">
-              <a class="menu-list__item__link" href="#">ТЕМЫ</a>
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="#">ТЕМЫ</a>
             </li>
-            <li class="menu-list__item">
-              <a class="menu-list__item__link" href="#">КОНТАКТЫ</a>
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="#">КОНТАКТЫ</a>
             </li>
           </ul>
         </nav>
+
+        <div class="burger">
+          <span></span>
+        </div>
+
       </div>
       <div class="header__title-box">
-        <h1 class="header-title">Блог о творчестве, спорте,
-          и образе жизни</h1>
+        <h1 class="header__title">Блог о творчестве, спорте,
+          и образе жизниh</h1>
       </div>
     </div>
   </header>
@@ -115,7 +120,6 @@
     </div>
   </section>
 
-  <div class="container">
     <div class="wrapper">
       <main class="main">
         <article class="post__list-card">
@@ -157,9 +161,11 @@
                 </a>
               </li>
               <ul>
+                <li>
                 <a href="#">
                   lifestyle
                 </a>
+                </li>
               </ul>
             </ul>
             <h2 class="post__list-title">
@@ -333,59 +339,54 @@
         </section>
         <section class="post__side-news">
           <article class="post__side-blog">
-            <img class="post__side-blog--bg" src="img/2.jpg">
+            <img class="post__side-bg" src="img/2.jpg">
             <div class="post__side-content">
-              <time class="post__side-blog-time">10 июня 2019</time>
-              <h3 class="post__side-blog-title">
+              <time class="side__blog-time">10 июня 2019</time>
+              <h3 class="side__blog-title">
                 <a href="#">10 мест, ради которых стоит
                   проснуться</a>
               </h3>
             </div>
-
           </article>
           <article class="post__side-blog">
-            <img class="post__side-blog--bg" src="img/151.jpg">
+            <img class="post__side-bg" src="img/151.jpg">
             <div class="post__side-content">
-              <time class="post__side-blog-time">10 июня 2019</time>
-              <h3 class="post__side-blog-title">
+              <time class="side__blog-time">10 июня 2019</time>
+              <h3 class="side__blog-title">
                 <a href="#">Йога для домашних</a>
               </h3>
             </div>
-
           </article>
           <article class="post__side-blog">
-            <img class="post__side-blog--bg" src="img/45.jpg">
+            <img class="side__blog-bg" src="img/45.jpg">
             <div class="post__side-content">
-              <time class="post__side-blog-time">10 июня 2019</time>
-              <h3 class="post__side-blog-title">
+              <time class="side__blog-time">10 июня 2019</time>
+              <h3 class="side__blog-title">
                 <a href="#">как мы превратили
                   классное место в
                   балкон</a>
               </h3>
             </div>
-
           </article>
           <article class="post__side-blog">
-            <img class="post__side-blog--bg" src="img/501.jpg">
+            <img class="side__blog-bg" src="img/501.jpg">
             <div class="post__side-content">
-              <time class="post__side-blog-time">10 июня 2019</time>
-              <h3 class="post__side-blog-title">
+              <time class="side__blog-time">10 июня 2019</time>
+              <h3 class="side__blog-title">
                 <a href="#">Кулинарный подход
                   к науке</a>
               </h3>
             </div>
-
           </article>
           <article class="post__side-blog">
-            <img class="post__side-blog--bg" src="img/7.jpg">
+            <img class="side__blog-bg" src="img/7.jpg">
             <div class="post__side-content">
-              <time class="post__side-blog-time">10 июня 2019</time>
-              <h3 class="post__side-blog-title">
+              <time class="side__blog-time">10 июня 2019</time>
+              <h3 class="side__blog-title">
                 <a href="#">лучшие прически для
                   распущенных волос</a>
               </h3>
             </div>
-
           </article>
         </section>
 
@@ -454,6 +455,7 @@
             </ul>
           </div>
         </div>
+      </aside>
     </div>
 
     <section class="shop">
@@ -468,7 +470,7 @@
             Подушки на диван
           </h2>
           <p class="shop__card-subtitle">
-            Набор из двух подушек с модными принтами. Видео о создании 
+            Набор из двух подушек с модными принтами. Видео о создании
             <a class="shop__link" href="#">
               здесь
             </a>.
@@ -491,11 +493,11 @@
             Кукла «Зайчик»
           </h2>
           <p class="shop__card-subtitle">
-            Интерьерная рукодельная кукла «Зайчик», созданию которой посвящена 
+            Интерьерная рукодельная кукла «Зайчик», созданию которой посвящена
             <a class="shop__link" href="#">
               весенняя серия постов
-            </a> 
-            в блоге и несколько подкастов. 
+            </a>
+            в блоге и несколько подкастов.
           </p>
           <div class="shop__in">
             <div class="shop__price">
@@ -506,18 +508,18 @@
           <button class="shop__btn" type="submit">в магазин</button>
           </div>
         </div>
-        <div class="shop__card-item">
+        <div class="shop__card-item card-3">
           <img class="shop__bg" src="img/shop-item-desk3.jpg" alt="" >
           <h2 class="shop__card-title">
             Шестиугольная рамка
           </h2>
           <p class="shop__card-subtitle">
-            Необычная рамка для украшения дома из видео 
+            Необычная рамка для украшения дома из видео
             <a class="shop__link" href="#">
               «Как сделать рамку из подручных средств за 30 минут»
-            </a> 
+            </a>
           </p>
-          <div class="shop__in">
+          <div class="in__shop">
             <div class="shop__price">
             <p class="shop__price1">
               500 Р
@@ -549,6 +551,13 @@
     <p class="copyrights">
       Copyright © 2009–2019 City Blog LLC.
     </p>
+
+<script>
+  document.querySelector('.burger').addEventListener('click', function () {
+    this.classList.toggle('active');
+    document.querySelector('.nav').classList.toggle('open');
+  })
+</script>
 </body>
 
 </html>

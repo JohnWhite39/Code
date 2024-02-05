@@ -15,6 +15,7 @@
         <a class="logo" href="#">
           <img class="logo" src="svg/noemi-logo.svg" alt="logo">
         </a>
+        <div class="menu-block">
         <nav class="nav">
           <ul class="menu__item">
             <li class="menu__list-item">
@@ -36,12 +37,12 @@
               <a class="menu__list-link" href="#">КОНТАКТЫ</a>
             </li>
           </ul>
+
         </nav>
-
-        <div class="burger">
+        <a class="menu-btn" href="#" >
           <span></span>
+        </a>
         </div>
-
       </div>
       <div class="header__title-box">
         <h1 class="header__title">Блог о творчестве, спорте,
@@ -552,12 +553,8 @@
       Copyright © 2009–2019 City Blog LLC.
     </p>
 
-<script>
-  document.querySelector('.burger').addEventListener('click', function () {
-    this.classList.toggle('active');
-    document.querySelector('.nav').classList.toggle('open');
-  })
-</script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="index.js"></script>
 </body>
 
 </html>

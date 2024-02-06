@@ -649,6 +649,10 @@ h1, h2, h3, p, ul, body {
     display: none;
   }
 
+  .shop__bg-mobile {
+    display: none;
+  }
+
   .shop__bg-tablet {
     display: block;
     margin-top: -218px;
